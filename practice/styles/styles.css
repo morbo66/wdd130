@@ -1,8 +1,74 @@
-.main-para{
-  font-size: 1.5em;
-  line-height: 1.5;
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Libre+Baskerville:wght@700&family=Roboto:wght@300;900&display=swap');
+
+
+* {
+  background-color: #fca6c9;
+}
+
+header h1{
+  font-family: "Roboto";
+  color: white;
+}
+header h1:hover{
+  
+  color: black;
+}
+header p{
+  color: white;
+  text-align: center;
+  width: 66%;
+  display: block;
+  margin: 0 auto;
+}
+#quote{
+  font-family: "Roboto";
+  margin: 20px auto;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+main ol{
+  display: block;
+  margin: 20px auto;
+  width: 55%;
+  font-weight: bold;
+
+}
+main p {
+  font-family: "Libre Baskerville";
+  margin: 20px auto;
+  font-size: 1.7em;
+  text-align: center;
+  width: 42%;
+  color: white;
+
+
+
 }
 #active {
   background-color: white;
   color: steelblue;
+}
+h1 {
+  text-align: center;
+}
+footer {
+  text-align: center;
+}
+footer p {
+  font-family: "Alkalami";
+  font-size: 16px;
+  margin: auto;
+  width: 40%;
+}
+img {
+  width: 20%;
+  display: block;
+  margin: 0 auto;
+}
+a:hover{
+  background-color: white;
+  color: steelblue;
+}
+a {
+  font-size: 1.5em;
 }
