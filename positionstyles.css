@@ -150,7 +150,7 @@
   width: 100%; 
   height: 100%; 
   background-color: gold; 
- 
+  margin-top: -1px;
 } 
 .blue5 {
   width: 100%; 
